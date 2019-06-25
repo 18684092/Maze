@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1561045175 source:/home/andyp/Documents/codeblocks/Maze/src/Place.cpp
+	"Place.h"
+
+1561454182 /home/andyp/Documents/codeblocks/Maze/include/Place.h
+
+1561454440 source:/home/andyp/Documents/codeblocks/Maze/main.cpp
+	"Place.h"
+	"Stack.h"
+	"RecursiveBackTracker.h"
+
+1561454183 source:/home/andyp/Documents/codeblocks/Maze/src/Location.cpp
+	"Location.h"
+
+1561454467 /home/andyp/Documents/codeblocks/Maze/include/Location.h
+	<cstdint>
+
+1561454183 source:/home/andyp/Documents/codeblocks/Maze/src/Stack.cpp
+	"Stack.h"
+
+1561454183 /home/andyp/Documents/codeblocks/Maze/include/Stack.h
+	"Place.h"
+
+1561046069 source:/home/andyp/Documents/codeblocks/Maze/src/MyStack.cpp
+	"MyStack.h"
+
+1561046069 /home/andyp/Documents/codeblocks/Maze/include/MyStack.h
+
+1561464731 source:/home/andyp/Documents/codeblocks/Maze/src/RecursiveBackTracker.cpp
+	"RecursiveBackTracker.h"
+	<ctime>
+	<stdio.h>
+	"Place.h"
+
+1561463739 /home/andyp/Documents/codeblocks/Maze/include/RecursiveBackTracker.h
+	<string>
+	<map>
+	"Location.h"
+	"Place.h"
+	"Stack.h"
+	"SDL2/SDL.h"
+
