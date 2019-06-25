@@ -69,7 +69,7 @@ class RecursiveBackTracker
         string _Compass[8] = {"nw", "w", "sw", "s", "se", "e", "ne", "n"};
 
         //Screen dimension constants
-        const int SCREEN_WIDTH = 640;
+        const int SCREEN_WIDTH = 620;
         const int SCREEN_HEIGHT = 480;
 };
 
