@@ -2,44 +2,44 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
+	<File name="src/RecursiveBackTracker.cpp" open="1" top="1" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7880" topLine="446" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="75" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="include/RecursiveBackTracker.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="158" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/RecursiveBackTracker.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="9244" topLine="253" />
-		</Cursor>
-	</File>
-	<File name="include/Stack.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="61" topLine="0" />
+			<Cursor1 position="77" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="include/Place.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="139" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="src/Stack.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="385" topLine="0" />
+			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="include/Location.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="419" topLine="0" />
+			<Cursor1 position="76" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include/Stack.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="75" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="src/Location.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="205" topLine="0" />
+			<Cursor1 position="76" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="main.cpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src/Stack.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="140" topLine="0" />
+			<Cursor1 position="76" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

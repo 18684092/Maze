@@ -5,6 +5,7 @@ Course: BSc Computer Science Level 1
 
 */
 
+
 #ifndef RECURSIVEBACKTRACKER_H
 #define RECURSIVEBACKTRACKER_H
 
@@ -58,12 +59,15 @@ class RecursiveBackTracker
         void DrawMarker(SDL_Renderer *, int, int);
         void DrawArrows(SDL_Renderer *, int, int);
         void DrawSmallDot(SDL_Renderer *, int, int);
+        void ProcessKeyBD(int &, int &, int, int);
         Place _GetNewPlace(Place, string);
 
         // Direction bitmap
         map<string, uint8_t> _Dir = {{"n",128}, {"ne",64}, {"e",32}, {"se",16}, {"s",8}, {"sw",4}, {"w",2}, {"nw",1}};
         // Mirror the directions (opposites) ie, n == s, se == nw etc
         map<string, uint8_t> _OpDir = {{"s",128}, {"sw",64}, {"w",32}, {"nw",16}, {"n",8}, {"ne",4}, {"e",2}, {"se",1}};
+         // Joystick compass to key map
+        map<string, int> _JoyKey = {{"N",SDLK_KP_8}, {"NE",SDLK_KP_9}, {"E",SDLK_KP_6}, {"SE",SDLK_KP_3}, {"S",SDLK_KP_2}, {"SW",SDLK_KP_1}, {"W",SDLK_KP_4}, {"NW",SDLK_KP_7}, {" ", 0}};
 
         // Compass strings
         string _Compass[8] = {"nw", "w", "sw", "s", "se", "e", "ne", "n"};

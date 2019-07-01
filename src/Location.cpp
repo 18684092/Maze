@@ -5,6 +5,7 @@ Course: BSc Computer Science Level 1
 
 */
 
+
 #include "Location.h"
 
 Location::Location()

@@ -5,6 +5,7 @@ Course: BSc Computer Science Level 1
 
 */
 
+
 #ifndef LOCATION_H
 #define LOCATION_H
 
