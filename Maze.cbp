@@ -39,11 +39,13 @@
 		<Linker>
 			<Add library="SDL2" />
 		</Linker>
+		<Unit filename="include/GamePad.h" />
 		<Unit filename="include/Location.h" />
 		<Unit filename="include/Place.h" />
 		<Unit filename="include/RecursiveBackTracker.h" />
 		<Unit filename="include/Stack.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/GamePad.cpp" />
 		<Unit filename="src/Location.cpp" />
 		<Unit filename="src/Place.cpp" />
 		<Unit filename="src/RecursiveBackTracker.cpp" />

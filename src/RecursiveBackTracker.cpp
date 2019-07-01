@@ -332,8 +332,6 @@ void RecursiveBackTracker::ProcessKeyBD(int &markerX, int &markerY, int remoteKe
 {
     int64_t key = localKey;
     if (remoteKey > 0) key = remoteKey;
-
-    std::cout << (int)key << std::endl;
     // 0 - 9 keys but converted to SDL key codes
     switch (key)
     {
